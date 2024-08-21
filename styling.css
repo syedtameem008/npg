@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Arial', sans-serif;
+}
+html{
+	font-size:16px;
+	scroll-behavior: smooth;
+}
+.backdrop{
+	background: linear-gradient(rgba(0,0,0,0.38), rgba(0,0,0,0.38)), url("./assets/pg.jpg");
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 background-size:Cover;
+	 height:100vh;
+}
+.container{
+	width:100%;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:Center;
+	flex-direction:column;
+	flex-wrap:wrap;
+	padding:2px;
+	text-align:center;
+	gap:15px;
+}
+.heading{
+	background:cream;
+}
+.book{
+	text-decoration:none;
+	background:#FF0000;
+	padding:14px 25px;
+	color:white;
+	font-size:20px;
+	display:inline-block;
+	letter-spacing:1.5px;
+	border-radius:5px;
+}
+.container a{
+	color:white;
+}
+.book:hover{
+	background:	#04AA6D;
+	transition:0.5s ease;
+}
